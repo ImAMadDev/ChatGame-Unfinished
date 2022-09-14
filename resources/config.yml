@@ -1,0 +1,36 @@
+enabled: true
+# minutos en segundos
+cooldown: 300
+# minutos en segundos
+time-to-response: 60
+activated-modes:
+  - unscramble
+#  - mathematics are not implemented yet
+  - question
+
+scrambles:
+  - 'Acacia'
+  - 'AppGallery'
+  - 'Asura'
+  - 'zKita'
+
+questions:
+  1:
+    question: 'What are Creepers scared of?'
+    answer:
+      - 'ocelot'
+      - 'ocelots'
+  2:
+    question: 'What can you wear to stop Enderman attacking you?'
+    answer:
+      - 'pumpkin'
+  3:
+    question: 'What item do you need to breed llamas?'
+    answer:
+      - 'Hay bales'
+
+rewards:
+  - give {player} stone 6
+  - give {player} chest 6
+  - give {player} sugar_cane 6
+  - give {player} ender_pearl 6

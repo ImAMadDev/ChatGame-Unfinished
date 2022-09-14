@@ -1,0 +1,9 @@
+name: ChatGame
+main: Asura\chatgame\ChatGame
+api: 4.0.0
+version: 1.0
+author: AppGallery
+permissions:
+  chatgame.permission:
+    default: op
+    description: Enable or disable chatgame
